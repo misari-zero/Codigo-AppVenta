@@ -1,0 +1,28 @@
+{% extends 'list.html' %}
+{% load static %}
+{% block head_list %}
+    <script src="{% static 'salida/js/list.js' %}"></script>
+{% endblock %}
+
+{% block columns %}
+    <tr>
+        <th scope="col" style="width: 5%;">Nro</th>
+        <th scope="col" style="width: 10%;">Sucursal</th>
+        <th scope="col" style="width: 10%;">Tipo Transferencia</th>
+        <th scope="col" style="width: 10%;">Tipo Documento</th>
+        <th scope="col" style="width: 10%;">Nro documento</th>
+        <th scope="col" style="width: 10%;">Fecha Registro</th>
+        <th scope="col" style="width: 10%;">Categoría</th>
+        <th scope="col" style="width: 10%;">Producto</th>
+        <th scope="col" style="width: 10%;">Precio Compra</th>
+        <th scope="col" style="width: 5%;">Cantidad</th>
+{#        <th scope="col" style="width: 10%;">Subtotal</th>#}
+{#        <th scope="col" style="width: 5%;">IGV</th>#}
+        <th scope="col" style="width: 10%;">Total</th>
+        <th scope="col" style="width: 5%;">Opciones</th>
+    </tr>
+{% endblock %}
+
+{% block javascript %}
+
+{% endblock %}
